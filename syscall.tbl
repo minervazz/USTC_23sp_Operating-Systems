@@ -1,0 +1,3 @@
+#syscall_64.tbl
+332 common  ps_counter      sys_ps_counter
+333 common  ps_info         sys_ps_info
