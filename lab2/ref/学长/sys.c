@@ -17,7 +17,6 @@ SYSCALL_DEFINE5(ps_info, pid_t * __user *, user_pid, char* __user * , user_name,
 	unsigned long long old_time, cpu_time;
 	for(k = 0; k < 1024; k++) name_a[k] = ' ';
 
-	printk("[StuID] PB21081601\n");
 	printk("[Syscall] ps_info\n");
 
 	for_each_process(task) {
