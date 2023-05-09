@@ -1,6 +1,7 @@
-#include<stdio.h>
-#include<unistd.h>
-#include<sys/syscall.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <sys/syscall.h>
 #include <string.h>
 #define max_len 500
 struct task_exist{
